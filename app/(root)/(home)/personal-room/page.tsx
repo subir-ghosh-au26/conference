@@ -7,7 +7,7 @@ import { useRouter } from 'next/navigation';
 import { useGetCallById } from '@/hooks/useGetCallById';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/components/ui/use-toast';
-import { userAgent } from 'next/server';
+// import { userAgent } from 'next/server';
 
 const Table = ({ title, description }: { title: string; description: string }) => {
   return (
